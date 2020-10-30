@@ -1,5 +1,6 @@
 module.exports = {
     async rewrites() {
+        console.log(process.env)
         return [
             {
                 source: "/:w*",
