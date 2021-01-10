@@ -8,7 +8,7 @@ module.exports = {
             },
             {
                 source: "/",
-                destination: `${process.env.url}/graphql`
+                destination: `${process.env.url}/`
             }
         ]
     }
